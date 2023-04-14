@@ -4,6 +4,15 @@ The history of the thesis template before it was moved into version control is o
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) which adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.0.2] - 2023-04-14
+
+### Added
+- `singlespace` for long chapter title.
+
+### Changed
+- Chapter dotted line from `dottedtocline` to `dottedlofline` to indent the chapter title.
+- Shorten line spacing after bibliography title.
+
 ## [0.0.1](https://github.com/matthewfeickert/Dedman-Thesis-Latex-Template/releases/tag/v0.0.1) - 2018-04-03
 - Release of tag `v0.0.1` on GitHub to archive the old template
 

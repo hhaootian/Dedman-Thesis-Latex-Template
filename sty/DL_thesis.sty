@@ -181,7 +181,7 @@
 
 \def\l@chapter{\par
  \baselineskip 0.25in  % added for smaller spacing
- \@dottedtocline{1}{0.0em}{2.6em}}
+ \@dottedlofline{1}{0.0em}{2.6em}}  % added for indentation of chapter title in TOC
 \def\l@section{\baselineskip 0.20in  % added for smaller spacing
  \@dottedtocline{1}{2.6em}{2.3em}}
 \def\l@subsection{\baselineskip 0.20in  % added for smaller spacing
@@ -261,6 +261,8 @@
  \typeout{BIBLIOGRAPHY.}%
  \addcontentsline{toc}{chapter}{BIBLIOGRAPHY}%
  \chaptermark{BIBLIOGRAPHY}%
+
+ \vspace{-1em}  % added to shorten line spacing after bibliography title
 
  \baselineskip 0.10in
  \renewcommand\lbaselinestretch{0.20in} %% tdp-fx single space %references
